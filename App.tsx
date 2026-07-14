@@ -1,4 +1,5 @@
 import Banner from './components/Banner'
+import HeroSection from './components/HeroSection'
 
 export default function App() {
   return (
@@ -9,6 +10,9 @@ export default function App() {
         <p className="text-lg text-muted-foreground">
           Connect your quality assurance repository to streamline testing workflows and improve collaboration across your team.
         </p>
+        <div className="pt-8">
+          <HeroSection />
+        </div>
       </div>
     </div>
   )
