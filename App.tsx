@@ -1,4 +1,5 @@
 import Banner from './components/Banner'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
           Connect your quality assurance repository to streamline testing workflows and improve collaboration across your team.
         </p>
       </div>
+      <Footer />
     </div>
   )
 }
